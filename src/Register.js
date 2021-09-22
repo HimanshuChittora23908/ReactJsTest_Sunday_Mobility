@@ -88,7 +88,7 @@ export default function Register() {
                     <input type="password" id="password" value={password} placeholder="Password" onChange={(e) => setPassword(e.target.value)} className="w-72 py-1 px-2 mt-5 border-b-2" />
                     {pwdError ? <p className="text-red-500 text-xs mt-2 w-72">Invalid Password Format. Minimum 8 characters with at least one lowercase letter, uppercase letter, numeric digit, and special character is allowed.</p> : null}
                     <button onClick={Local} className="w-72 mt-16 rounded-full py-1 bg-button text-white font-semibold">Submit </button>
-                    <p className="text-button font-normal text-sm mt-2"><a href="/login">Login</a></p>
+                    <p className="text-button font-normal text-sm mt-2"><a href="/Sunday_Mobility/login">Login</a></p>
                 </div>
                 </div>
                 <Footer />

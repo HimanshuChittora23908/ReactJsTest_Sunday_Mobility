@@ -1,5 +1,5 @@
 {
-  "homepage": "http://HimanshuChittora23908.github.io/Sunday_Mobility",
+  "homepage": "SundayMobility.vercel.app/Sunday_Mobility",
   "name": "sunday-mobility",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,7 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
