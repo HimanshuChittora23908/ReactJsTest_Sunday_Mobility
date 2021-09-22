@@ -50,7 +50,7 @@ export default function Register() {
         });
         localStorage.setItem("users", JSON.stringify(details));
         if (validUserName.test(userName) && validEmail.test(email) && validMobile.test(mobile) && validPassword.test(password)) {
-            window.location.href = "/users";
+            window.location.href = "/Sunday_Mobility/users";
         }
     }
 
