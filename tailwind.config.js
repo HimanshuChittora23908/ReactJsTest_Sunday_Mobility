@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       colors: {
         button: "#61acb3"
-      }
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+      },
     },
   },
   variants: {

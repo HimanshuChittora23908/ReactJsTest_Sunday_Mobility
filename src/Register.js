@@ -70,7 +70,7 @@ export default function Register() {
     ];
 
     return (
-        <div className="sm:grid-flow-row lg:grid grid-cols-5">
+        <div className="font-poppins sm:grid-flow-row lg:grid grid-cols-5">
             <div className="col-span-3">
                 <img src={sea} alt="" className="img_sea" />
             </div>
